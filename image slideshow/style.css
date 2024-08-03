@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: #555;
+}
